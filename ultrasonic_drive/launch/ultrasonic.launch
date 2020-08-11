@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-<node pkg="ultrasonic_drive" type="ultrasonic_drive" name="ultrasonic_drive"/>
-<param name="port" type="string" value="/dev/ttyUSB4"/>
-<param name="min_dist" type="double" value="0.03"/>
-<param name="max_dist" type="double" value="3.0"/>
-<param name="max_angle" type="double" value="50.0"/>
-</launch>
